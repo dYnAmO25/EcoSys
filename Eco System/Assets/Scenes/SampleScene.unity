@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0028438312, g: 0.003148817, b: 0.004236697, a: 1}
+  m_IndirectSpecularColor: {r: 0.18303439, g: 0.22871622, b: 0.30674314, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -151,8 +151,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.759434, g: 0.88265073, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -527,9 +527,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fSpeed: 1
   fDayMinutes: 24
-  dayColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 0}
-  nightColor: {r: 0.8392157, g: 0.89925635, b: 1, a: 0}
-  skyboxMaterial: {fileID: 2100000, guid: b06e4997a6afd6847bdf28d2bfe64a8b, type: 2}
+  dayColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  nightColor: {r: 0.8392157, g: 0.89925635, b: 1, a: 1}
+  skyboxMaterial: {fileID: 0}
+  iDay: 1
   directionalLight: {fileID: 705507993}
 --- !u!4 &1044851574
 Transform:

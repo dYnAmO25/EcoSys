@@ -9,6 +9,7 @@ public class DayNightCycle : MonoBehaviour
     public Color dayColor;
     public Color nightColor;
     public Material skyboxMaterial;
+    public int iDay = 1;
     public GameObject directionalLight;
 
     private float fRotation = 0;
@@ -36,6 +37,7 @@ public class DayNightCycle : MonoBehaviour
         if (fDayTime >= fDayMinutes * 60)
         {
             fDayTime = 0;
+            iDay++;
         }
     }
 }
